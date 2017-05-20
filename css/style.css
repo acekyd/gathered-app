@@ -1,0 +1,126 @@
+
+@import 'type.css';
+@import 'normalize.css';
+
+body{
+    font-size: 16px;
+    font-family: 'AvenirLTStd-Book', sans-serif;
+    background-color: #fff;
+}
+
+.hero{
+    background: #F53D3D;
+    height: 100%; 
+}
+
+section{
+    padding-top: 7em;
+    padding-bottom: 7em;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.edge--bottom--reverse {
+  position: relative;
+  z-index: 1;
+}
+.edge--bottom--reverse:after {
+  background: inherit;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  -webkit-backface-visibility: hidden;
+}
+.edge--bottom--reverse:after {
+  bottom: 0;
+  -webkit-transform: skewY(3.5deg);
+          transform: skewY(3.5deg);
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
+}
+
+
+.hero h1{
+    font-size: 56px;
+    margin-top: 220px;
+}
+
+.hero .lead{
+    font-size: 18px;
+}
+
+.hero h1, .hero .lead{
+    color: #fff;
+}
+
+ul.download-icons li{
+    display: inline-block;
+}
+
+ul.download-icons li a{
+  
+}
+
+ul.download-icons li a img{
+    max-width: 30%;
+}
+
+ul{
+    list-style: none;
+}
+
+.features h3, .download h3{
+    font-size: 40px;
+    color: #000;
+}
+
+hr{
+    border-top: 5px solid #000!important;
+    width: 20%;
+}
+
+.features{
+    padding-top:11em;
+}
+
+.features ul li{
+    margin-top: 72px;
+}
+
+.features ul li h4{
+    color:#F53D3D;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.features ul li p{
+    color: #777;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.download{
+    background: #fafafa;
+}
+
+.download p{
+    width: 50%;
+    margin: 10px auto;
+}
+
+footer{
+    padding: 1.5em 0;
+}
+
+footer h6{
+    font-weight: 400;
+}
+
